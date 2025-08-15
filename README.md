@@ -29,7 +29,7 @@ The workflow can be restarted from **any saved checkpoint**, allowing iterative 
 
 ## Workflow Diagram
 
-![Workflow Diagram](./langgraph_time_travel_llm_diagram.png)
+![Workflow Diagram](../langgraph_time_travel_llm_diagram.png)
 
 ---
 
