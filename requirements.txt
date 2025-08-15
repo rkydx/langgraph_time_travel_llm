@@ -1,0 +1,4 @@
+langgraph==0.6.5
+langgraph-checkpoint-sqlite
+langchain-openai
+python-dotenv
