@@ -18,7 +18,7 @@ The workflow can be restarted from **any saved checkpoint**, allowing iterative 
 
 ---
 
-## 🛠 Features
+## Features
 - **LLM-powered draft and review process**
 - **SQLite checkpointing** with `langgraph-checkpoint-sqlite`
 - **Human-in-the-loop (HITL)** for revision control
@@ -27,18 +27,20 @@ The workflow can be restarted from **any saved checkpoint**, allowing iterative 
 
 ---
 
-## 🖼 Workflow Diagram
+## Workflow Diagram
 
-![Workflow Diagram](./langgraph_time_travel_llm_diagram.png)
+![Workflow Diagram](../langgraph_time_travel_llm_diagram.png)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+```
 .
 ├── time_travel_sqlite_demo_LLM.py   # Main script (LLM draft + LLM review + time travel)
 ├── workflow_diagram.png             # Flowchart image used in README/LinkedIn
 ├── README.md                        # This file
 └── requirements.txt                 # Dependencies
+```
 
 ## How it works (high level)
 1. - **Nodes**
